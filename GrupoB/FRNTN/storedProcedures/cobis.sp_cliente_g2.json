@@ -1,0 +1,151 @@
+{
+	"filename": "C:\\Users\\MAKROSYSTEM\\CapacitacionCMC\\Semillero\\sps\\sp_cliente_g2.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_cliente_g2",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_direccion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_telefono"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "4a8e62bc-1902-44a8-a373-72de4f81b094",
+				"columns": [
+					"codigo",
+					"cedula",
+					"nombre",
+					"apellido",
+					"direccion",
+					"telefono"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono\r\n\tfrom"
+			},
+			{
+				"_idQuery": "01792c5d-0bd5-4f95-9131-faa944d9da68",
+				"columns": [
+					"codigo",
+					"cedula",
+					"nombre",
+					"apellido",
+					"direccion",
+					"telefono"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo_cli"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

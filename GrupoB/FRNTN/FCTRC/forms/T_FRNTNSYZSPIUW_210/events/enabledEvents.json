@@ -14,5 +14,19 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_DN57_WPJ49",
+		"controlName": "QV_DN57_WPJ49",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "afterLeaveInLineRow",
+				"executionType": 3
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryViewEventType"
 	}
 ]

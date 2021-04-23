@@ -1,0 +1,55 @@
+{
+	"FRNTN": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEZZ_449",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4072_bli_recuperarclientes",
+			"nameBli": "BLI_RecuperarClientes"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEZZ_449",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7594_bli_actualizarcliente",
+			"nameBli": "BLI_ActualizarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEZZ_449",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9583_bli_crearcliente",
+			"nameBli": "BLI_CrearCliente"
+		}
+	]
+}
