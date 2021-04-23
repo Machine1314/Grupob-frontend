@@ -1,0 +1,175 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIETTEN_AB57_990",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIETTEN_AB57",
+		"version": "1.0.0"
+	},
+	"isAutomatic": true,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEZZ_449",
+	"mainEntityModule": "FRNTN",
+	"mainEntityName": {
+		"$ref": "../../../FRNTN/relations/componentKeys.json#/Entities/EN_CLIENTEZZ_449/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRNTN/relations/componentKeys.json#/FCTRC/Queries/Q_CLIETTEN_AB57/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "Apellido",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT48_APELLIOO449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIET7EEAA839_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "Codigo",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT25_CODIGOHJ449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETATETE654_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "Cedula",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT61_CEDULAGP449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETBEE7E152_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "Nombre",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT72_NOMBRELJ449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETNNNNE276_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "Telefono",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT62_TELEFOOO449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETT5ENE138_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "Direccion",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_CLIENTEZZ_449.json#/attributes/AT74_DIRECCIO449"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETT7T5B708_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRNTN",
+				"subModuleId": "FCTRC"
+			}
+		}
+	]
+}

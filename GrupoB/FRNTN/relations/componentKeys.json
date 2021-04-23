@@ -6,5 +6,19 @@
 		"EN_PRODUCTOO_275": {
 			"name": "Producto"
 		}
+	},
+	"FCTRC": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRNTNSYZSPIUW_210": {
+				"name": "ClienteForm"
+			}
+		},
+		"Queries": {
+			"Q_CLIETTEN_AB57": {
+				"name": "ClienteQuery"
+			}
+		}
 	}
 }

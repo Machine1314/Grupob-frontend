@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEZZ_449": {
+		"queries": {
+			"Q_CLIETTEN_AB57": {
+				"$ref": "../FCTRC/queries/Q_CLIETTEN_AB57.json#"
+			}
+		}
+	}
+}

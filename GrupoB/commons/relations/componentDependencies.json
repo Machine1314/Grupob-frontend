@@ -12,7 +12,45 @@
 		}
 	},
 	"Forms": {
+		"T_FRNTNSYZSPIUW_210": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEZZ_449": [
+					"AT25_CODIGOHJ449",
+					"AT48_APELLIOO449",
+					"AT61_CEDULAGP449",
+					"AT62_TELEFOOO449",
+					"AT72_NOMBRELJ449",
+					"AT74_DIRECCIO449"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIETTEN_AB57": [
+					"QM_CLIET7EEAA839_02",
+					"QM_CLIETATETE654_01",
+					"QM_CLIETBEE7E152_03",
+					"QM_CLIETNNNNE276_05",
+					"QM_CLIETT5ENE138_04",
+					"QM_CLIETT7T5B708_06"
+				]
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
+		"Q_CLIETTEN_AB57": {
+			"labels": [
+			]
+		}
 	}
 }
