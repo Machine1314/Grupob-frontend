@@ -1,0 +1,9 @@
+{
+	"EN_PRODUCTOO_275": {
+		"queries": {
+			"Q_PRODCTTO_OE27": {
+				"$ref": "../FCTRC/queries/Q_PRODCTTO_OE27.json#"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONBQKNNUN_370778",
+		"controlName": "VA_VABUTTONBQKNNUN_370778",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "visualAttributeEventType"
+	}
+]

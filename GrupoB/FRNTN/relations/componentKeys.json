@@ -6,5 +6,24 @@
 		"EN_PRODUCTOO_275": {
 			"name": "Producto"
 		}
+	},
+	"FCTRC": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRNTNBPIRNPGY_597": {
+				"name": "Insertar Producto"
+			},
+			"T_FRNTNKOCECMZP_970": {
+				"name": "Pantalla productos"
+			}
+		},
+		"Queries": {
+			"Q_PRODCTTO_OE27": {
+				"name": "ProductoQuery"
+			}
+		},
+		"SubForms": {
+		}
 	}
 }

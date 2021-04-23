@@ -12,7 +12,66 @@
 		}
 	},
 	"Forms": {
+		"T_FRNTNBPIRNPGY_597": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_275": [
+					"AT64_NOMBRETH275",
+					"AT68_CODIGOWR275",
+					"AT76_PRECIOQN275"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRNTN_CODIGOESE_54642",
+				"LBL_FRNTN_GUARDARKE_82337",
+				"LBL_FRNTN_NOMBRETBV_80731",
+				"LBL_FRNTN_PRECIOXYX_97813"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_FRNTNKOCECMZP_970": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_275": [
+					"AT64_NOMBRETH275",
+					"AT68_CODIGOWR275",
+					"AT76_PRECIOQN275"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODCTTO_OE27": [
+					"QM_PRODC722EE196_04",
+					"QM_PRODCETTTO826_02",
+					"QM_PRODCT7727456_03"
+				]
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
+		"Q_PRODCTTO_OE27": {
+			"labels": [
+			]
+		}
 	}
 }

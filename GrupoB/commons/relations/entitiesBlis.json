@@ -1,0 +1,72 @@
+{
+	"FRNTN": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_275",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1536_bli_actualizarproducto",
+			"nameBli": "Bli_actualizarproducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_275",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1975_bli_eliminarproducto",
+			"nameBli": "BLI_eliminarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_275",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7314_bli_listarproductos",
+			"nameBli": "BLI_ListarProductos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_275",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7835_bli_insertarproducto",
+			"nameBli": "BLI_InsertarProducto"
+		}
+	]
+}
