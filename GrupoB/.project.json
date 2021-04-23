@@ -1,0 +1,19 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "FRNTN",
+	"modules": [
+		{
+			"moduleId": "FRNTN",
+			"moduleName": "FRONTEND",
+			"subModules": [
+				{
+					"subModuleId": "FCTRC",
+					"subModuleName": "FACTURACION"
+				}
+			]
+		}
+	],
+	"projectName": "GrupoB",
+	"subModuleId": "FCTRC"
+}
