@@ -23,41 +23,52 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "C"
+			"value": "F"
 		},
 		{
-			"attributeId": "AT37_CEDULART891",
+			"attributeId": "",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
 			"entityId": "",
 			"format": "",
-			"name": "@i_cedula",
+			"name": "@i_fecha1",
 			"type": "CUSTOM",
-			"value": "cedula"
+			"value": "fecha1"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_fecha2",
+			"type": "CUSTOM",
+			"value": "fecha2"
 		}
 	],
-	"name": "BLI_BuscarFacturasCedula",
+	"name": "BLI_BuscarFacturasFecha",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI2427_bli_buscarfacturascedula",
-	"patternName": "BLI_BuscarFacturasCedula",
+	"patternId": "BLI4715_bli_buscarfacturasfecha",
+	"patternName": "BLI_BuscarFacturasFecha",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "92123c4c-55d9-47a9-a116-07797d7e7c8a",
+			"_idQuery": "1587e3ea-3503-408d-80da-aac5689b8866",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 2,
-			"queryName": "select \u0027Codigo\u0027 = cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
+			"numberQuery": 1,
+			"queryName": "select \u0027Codigo\u0027 = ca.cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,ca.cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "92123c4c-55d9-47a9-a116-07797d7e7c8a",
+			"_idQuery": "1587e3ea-3503-408d-80da-aac5689b8866",
 			"columns": [
 				{
 					"attributeId": "AT52_CODIGOMW347",

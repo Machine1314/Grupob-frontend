@@ -5,7 +5,7 @@
 		"forms": {
 			"FRNTN": [
 				{
-					"generated": 0,
+					"generated": 2,
 					"moduleId": "FRNTN",
 					"name": "FacturasPorFecha",
 					"subModuleId": "RPRTS",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 2,
 					"moduleId": "FRNTN",
 					"name": "FacturasPorCliente",
 					"subModuleId": "RPRTS",
