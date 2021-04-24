@@ -1,0 +1,46 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODCTTO_GR26",
+		"controlName": "ListarProductosQ",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRNTN/FCTRC/queries/Q_PRODCTTO_GR26.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_HS26_CKG27",
+		"controlName": "QV_HS26_CKG27",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_LISTARPRDC_458470",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

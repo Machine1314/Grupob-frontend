@@ -13,6 +13,23 @@
 			"name": "Producto"
 		}
 	},
+	"FCTRC": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRNTNBVWCPBWM_175": {
+				"name": "Producto"
+			},
+			"T_FRNTNKJDJSROC_470": {
+				"name": "ListarProductos"
+			}
+		},
+		"Queries": {
+			"Q_PRODCTTO_GR26": {
+				"name": "ListarProductosQ"
+			}
+		}
+	},
 	"RPRTS": {
 		"CompositeForms": {
 		},

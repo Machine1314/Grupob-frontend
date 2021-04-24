@@ -20,6 +20,34 @@
 		}
 	},
 	"Forms": {
+		"T_FRNTNBVWCPBWM_175": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_275": [
+					"AT64_NOMBRETH275",
+					"AT68_CODIGOWR275",
+					"AT76_PRECIOQN275"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRNTN_ACTUALIAR_11073",
+				"LBL_FRNTN_CDIGOIVVU_78422",
+				"LBL_FRNTN_GUARDARHO_88292",
+				"LBL_FRNTN_NOMBRERCS_68286",
+				"LBL_FRNTN_PRECIOGBM_67267"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_FRNTNGUUDYOUQ_944": {
 			"blis": [
 			],
@@ -58,6 +86,34 @@
 					"QM_DATOTCC17F926_02",
 					"QM_DATOTWUUCW407_01",
 					"QM_DATOTWWCGU520_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_FRNTNKJDJSROC_470": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTOO_275": [
+					"AT64_NOMBRETH275",
+					"AT68_CODIGOWR275",
+					"AT76_PRECIOQN275"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODCTTO_GR26": [
+					"QM_PRODC2RGGG630_02",
+					"QM_PRODC2RTTO784_03",
+					"QM_PRODC6TTOT689_04"
 				]
 			},
 			"subForms": [
@@ -109,6 +165,10 @@
 			]
 		},
 		"Q_DATOTCUF_WG71": {
+			"labels": [
+			]
+		},
+		"Q_PRODCTTO_GR26": {
 			"labels": [
 			]
 		}

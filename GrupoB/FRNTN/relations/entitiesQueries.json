@@ -8,5 +8,12 @@
 				"$ref": "../RPRTS/queries/Q_DATOTCUF_WG71.json#"
 			}
 		}
+	},
+	"EN_PRODUCTOO_275": {
+		"queries": {
+			"Q_PRODCTTO_GR26": {
+				"$ref": "../FCTRC/queries/Q_PRODCTTO_GR26.json#"
+			}
+		}
 	}
 }
