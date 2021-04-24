@@ -10,10 +10,14 @@
 				{
 					"subModuleId": "FCTRC",
 					"subModuleName": "FACTURACION"
+				},
+				{
+					"subModuleId": "RPRTS",
+					"subModuleName": "REPORTES"
 				}
 			]
 		}
 	],
 	"projectName": "GrupoB",
-	"subModuleId": "FCTRC"
+	"subModuleId": "RPRTS"
 }

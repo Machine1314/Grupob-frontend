@@ -1,10 +1,38 @@
 {
 	"Entities": {
+		"EN_BUSQUEDAA_891": {
+			"name": "Busqueda"
+		},
 		"EN_CLIENTEZZ_449": {
 			"name": "Cliente"
 		},
+		"EN_DATOSFATC_347": {
+			"name": "DatosFactura"
+		},
 		"EN_PRODUCTOO_275": {
 			"name": "Producto"
+		}
+	},
+	"RPRTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRNTNGUUDYOUQ_944": {
+				"name": "FacturasPorFecha"
+			},
+			"T_FRNTNXKREPNXN_521": {
+				"name": "FacturasPorCliente"
+			}
+		},
+		"Queries": {
+			"Q_DATOAUFS_NQ47": {
+				"name": "DatosFacturaQueryCedula"
+			},
+			"Q_DATOTCUF_WG71": {
+				"name": "DatosFacturaQueryFecha"
+			}
+		},
+		"SubForms": {
 		}
 	}
 }

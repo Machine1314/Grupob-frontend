@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030024"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "AT37_CEDULART891",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "CUSTOM",
+			"value": "cedula"
+		}
+	],
+	"name": "BLI_BuscarFacturasCedula",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI2427_bli_buscarfacturascedula",
+	"patternName": "BLI_BuscarFacturasCedula",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "92123c4c-55d9-47a9-a116-07797d7e7c8a",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select \u0027Codigo\u0027 = cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "92123c4c-55d9-47a9-a116-07797d7e7c8a",
+			"columns": [
+				{
+					"attributeId": "AT52_CODIGOMW347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_FECHAVPR347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Fecha",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT24_TOTALZNH347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Total",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT54_NOMBREIE347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Nombre Cliente",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_APELLIOE347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Apellido Cliente",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_DATOSFATC_347",
+			"module": {
+				"moduleId": "FRNTN",
+				"moduleName": "FRONTEND"
+			},
+			"name": "DatosFactura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_factura_g2",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

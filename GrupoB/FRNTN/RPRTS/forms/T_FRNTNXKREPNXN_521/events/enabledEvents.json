@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_DATOAUFS_NQ47",
+		"controlName": "DatosFacturaQueryCedula",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRNTN/RPRTS/queries/Q_DATOAUFS_NQ47.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "DatosFactura",
+		"eventsType": "queryEventType"
+	}
+]

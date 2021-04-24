@@ -1,0 +1,38 @@
+{
+	"FRNTN": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_DATOSFATC_347",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI2427_bli_buscarfacturascedula",
+			"nameBli": "BLI_BuscarFacturasCedula"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_DATOSFATC_347",
+						"moduleId": "FRNTN",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4715_bli_buscarfacturasfecha",
+			"nameBli": "BLI_BuscarFacturasFecha"
+		}
+	]
+}
