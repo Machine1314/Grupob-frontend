@@ -1,10 +1,13 @@
 {
-    "FRNTN": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FRNTN": {
+		"LBL": {
+			"LBL_FRNTN_BUSCARKWB_75485": "Buscar",
+			"LBL_FRNTN_CEDULARHS_33711": "Cedula",
+			"LBL_FRNTN_FECHAFIAA_32094": "Fecha Final (aaaa-mm-dd)",
+			"LBL_FRNTN_FECHAINCA_55885": "Fecha Inical ()",
+			"LBL_FRNTN_FECHAINIA_62128": "Fecha Inicial (aaaa-mm-dd)"
+		},
+		"MSG": {
+		}
+	}
 }

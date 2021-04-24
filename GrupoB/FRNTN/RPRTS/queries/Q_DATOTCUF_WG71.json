@@ -1,0 +1,146 @@
+{
+	"customEvents": [
+		{
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_DATOTCUF_WG71",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_DATOSFATC_347",
+	"mainEntityModule": "FRNTN",
+	"mainEntityName": {
+		"$ref": "../../../FRNTN/relations/componentKeys.json#/Entities/EN_DATOSFATC_347/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRNTN/relations/componentKeys.json#/RPRTS/Queries/Q_DATOTCUF_WG71/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellidoCliente",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_DATOSFATC_347.json#/attributes/AT97_APELLIOE347"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_DATOT17UUG913_05",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombreCliente",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_DATOSFATC_347.json#/attributes/AT54_NOMBREIE347"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_DATOT1GGU7759_04",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "fecha",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_DATOSFATC_347.json#/attributes/AT97_FECHAVPR347"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_DATOTCC17F926_02",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_DATOSFATC_347.json#/attributes/AT52_CODIGOMW347"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_DATOTWUUCW407_01",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "total",
+			"attribute": {
+				"$ref": "../../../FRNTN/entities/EN_DATOSFATC_347.json#/attributes/AT24_TOTALZNH347"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_DATOTWWCGU520_03",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRNTN",
+				"subModuleId": "RPRTS"
+			}
+		}
+	]
+}

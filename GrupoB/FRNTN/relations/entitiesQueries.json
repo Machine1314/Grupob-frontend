@@ -1,0 +1,12 @@
+{
+	"EN_DATOSFATC_347": {
+		"queries": {
+			"Q_DATOAUFS_NQ47": {
+				"$ref": "../RPRTS/queries/Q_DATOAUFS_NQ47.json#"
+			},
+			"Q_DATOTCUF_WG71": {
+				"$ref": "../RPRTS/queries/Q_DATOTCUF_WG71.json#"
+			}
+		}
+	}
+}

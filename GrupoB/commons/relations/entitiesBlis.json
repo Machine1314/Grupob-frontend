@@ -1,0 +1,26 @@
+{
+    "FRNTN": [
+        {
+            "entities": {
+                "inputEntity": [
+                    {
+                        "entityId": "EN_BUSQUEDAA_891",
+                        "moduleId": "FRNTN",
+                        "related": false
+                    }
+                ],
+                "outputEntity": [
+                ],
+                "returnEntity": [
+                    {
+                        "entityId": "EN_DATOSFATC_347",
+                        "moduleId": "FRNTN",
+                        "related": false
+                    }
+                ]
+            },
+            "idBli": "BLI2427_bli_buscarfacturascedula",
+            "nameBli": "BLI_BuscarFacturasCedula"
+        }
+    ]
+}

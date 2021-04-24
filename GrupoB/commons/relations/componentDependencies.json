@@ -2,7 +2,15 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_BUSQUEDAA_891": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTEZZ_449": {
+			"labels": [
+			]
+		},
+		"EN_DATOSFATC_347": {
 			"labels": [
 			]
 		},
@@ -12,7 +20,97 @@
 		}
 	},
 	"Forms": {
+		"T_FRNTNGUUDYOUQ_944": {
+			"blis": [
+			],
+			"entities": {
+				"EN_BUSQUEDAA_891": [
+					"AT78_FECHA1IF891",
+					"AT90_FECHA2OK891"
+				],
+				"EN_DATOSFATC_347": [
+					"AT24_TOTALZNH347",
+					"AT52_CODIGOMW347",
+					"AT54_NOMBREIE347",
+					"AT97_APELLIOE347",
+					"AT97_FECHAVPR347"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRNTN_BUSCARKWB_75485",
+				"LBL_FRNTN_FECHAFIAA_32094",
+				"LBL_FRNTN_FECHAINIA_62128"
+			],
+			"queries": {
+				"Q_DATOTCUF_WG71": [
+					"",
+					"",
+					"",
+					"",
+					"QM_DATOT17UUG913_05",
+					"QM_DATOT1GGU7759_04",
+					"QM_DATOTCC17F926_02",
+					"QM_DATOTWUUCW407_01",
+					"QM_DATOTWWCGU520_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_FRNTNXKREPNXN_521": {
+			"blis": [
+			],
+			"entities": {
+				"EN_BUSQUEDAA_891": [
+					"AT37_CEDULART891"
+				],
+				"EN_DATOSFATC_347": [
+					"AT24_TOTALZNH347",
+					"AT52_CODIGOMW347",
+					"AT54_NOMBREIE347",
+					"AT97_APELLIOE347",
+					"AT97_FECHAVPR347"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRNTN_BUSCARKWB_75485",
+				"LBL_FRNTN_CEDULARHS_33711"
+			],
+			"queries": {
+				"Q_DATOAUFS_NQ47": [
+					"",
+					"",
+					"QM_DATOA4FSUQ743_04",
+					"QM_DATOA4SN4S309_02",
+					"QM_DATOA4UQQF804_03",
+					"QM_DATOA74FFF119_05",
+					"QM_DATOANNQNN289_01"
+				]
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
+		"Q_DATOAUFS_NQ47": {
+			"labels": [
+			]
+		},
+		"Q_DATOTCUF_WG71": {
+			"labels": [
+			]
+		}
 	}
 }

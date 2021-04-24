@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_DATOTCUF_WG71",
+		"controlName": "DatosFacturaQueryFecha",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRNTN/RPRTS/queries/Q_DATOTCUF_WG71.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "DatosFactura",
+		"eventsType": "queryEventType"
+	}
+]
