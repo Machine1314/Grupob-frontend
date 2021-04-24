@@ -1,0 +1,10 @@
+{
+	"FRNTN": {
+		"LBL_FRNTN_CODIGOESE_54642": "Codigo",
+		"LBL_FRNTN_DATOSPRUC_99586": "Datos producto",
+		"LBL_FRNTN_GUARDARKE_82337": "Guardar",
+		"LBL_FRNTN_MONEDAURL_71215": "Moneda",
+		"LBL_FRNTN_NOMBRETBV_80731": "Nombre",
+		"LBL_FRNTN_PRECIOXYX_97813": "Precio"
+	}
+}
