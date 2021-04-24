@@ -1,0 +1,18 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_PRODUCTOO_275",
+			"isContextEntity": null,
+			"moduleId": "FRNTN",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FRNTN",
+			"queryId": "Q_PRODCTTO_GR26",
+			"related": false,
+			"subModuleId": "FCTRC"
+		}
+	]
+}
