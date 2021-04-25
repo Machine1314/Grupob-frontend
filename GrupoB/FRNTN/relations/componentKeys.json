@@ -27,7 +27,7 @@
 				"name": "ListarProductos"
 			}
 		},
-"Queries": {
+	"Queries": {
 			"Q_CLIETTEN_AB57": {
 				"name": "ClienteQuery"
 			},
@@ -55,5 +55,7 @@
 			}
 		},
 		"SubForms": {
-		}	}
+		}	
+		}
+	}
 }
