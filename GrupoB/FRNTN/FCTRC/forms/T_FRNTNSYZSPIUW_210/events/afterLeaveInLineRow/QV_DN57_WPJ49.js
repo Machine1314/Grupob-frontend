@@ -5,7 +5,6 @@ task.gridAfterLeaveInLineRow.QV_DN57_WPJ49 = function (entities,gridAfterLeaveIn
 
      gridAfterLeaveInLineRowEventArgs.commons.execServer = true;
      //gridAfterLeaveInLineRowEventArgs.commons.serverParameters.Cliente = true;
-    gridAfterLeaveInLineRowEventArgs.commons.api.grid.refresh('QV_DN57_WPJ49');
 
 };
 

@@ -24,6 +24,18 @@
 			{
 				"eventName": "afterLeaveInLineRow",
 				"executionType": 3
+			},
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowInserting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowUpdating",
+				"executionType": 3
 			}
 		],
 		"entityName": "Cliente",

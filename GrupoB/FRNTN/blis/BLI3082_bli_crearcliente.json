@@ -31,7 +31,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "U"
+			"value": "I"
 		},
 		{
 			"attributeId": "AT61_CEDULAGP449",
@@ -89,13 +89,13 @@
 			"value": ""
 		}
 	],
-	"name": "BLI_ActualizarCliente",
+	"name": "BLI_CrearCliente",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI7594_bli_actualizarcliente",
-	"patternName": "BLI_ActualizarCliente",
+	"patternId": "BLI3082_bli_crearcliente",
+	"patternName": "BLI_CrearCliente",
 	"patternType": "Bli",
 	"queries": [
 	],

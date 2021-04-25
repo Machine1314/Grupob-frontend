@@ -13,6 +13,17 @@
 			"name": "@t_trn",
 			"type": "CONSTANT",
 			"value": "163030012"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "L"
 		}
 	],
 	"name": "BLI_RecuperarClientes",
@@ -20,30 +31,30 @@
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI4072_bli_recuperarclientes",
+	"patternId": "BLI4661_bli_recuperarclientes",
 	"patternName": "BLI_RecuperarClientes",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "4a8e62bc-1902-44a8-a373-72de4f81b094",
+			"_idQuery": "1b7953d0-f108-43a5-b8ca-f77da0ea2e72",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
 			"numberQuery": 1,
-			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono\r\n\tfrom"
+			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono,\r\n\t\t\u0027estado\u0027 \t= cl_estado\r\n\tfrom"
 		},
 		{
-			"_idQuery": "01792c5d-0bd5-4f95-9131-faa944d9da68",
+			"_idQuery": "3d2957c1-7578-4627-b34a-a185d89be327",
 			"isMapReturn": false,
 			"isReturn": true,
 			"isSingleResult": false,
 			"numberQuery": 2,
-			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono\r\n\tfrom"
+			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027cedula\u0027 \t= cl_cedula,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027 \t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027 \t= cl_telefono,\r\n\t\t\u0027estado\u0027 \t= cl_estado\r\n\tfrom"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "4a8e62bc-1902-44a8-a373-72de4f81b094",
+			"_idQuery": "1b7953d0-f108-43a5-b8ca-f77da0ea2e72",
 			"columns": [
 				{
 					"attributeId": "AT25_CODIGOHJ449",

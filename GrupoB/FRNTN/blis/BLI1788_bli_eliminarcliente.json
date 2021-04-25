@@ -31,7 +31,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "I"
+			"value": "D"
 		},
 		{
 			"attributeId": "AT61_CEDULAGP449",
@@ -43,59 +43,15 @@
 			"name": "@i_cedula",
 			"type": "ATTRIBUTE",
 			"value": ""
-		},
-		{
-			"attributeId": "AT72_NOMBRELJ449",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CLIENTEZZ_449",
-			"format": "",
-			"name": "@i_nombre",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT48_APELLIOO449",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CLIENTEZZ_449",
-			"format": "",
-			"name": "@i_apellido",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT74_DIRECCIO449",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CLIENTEZZ_449",
-			"format": "",
-			"name": "@i_direccion",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT62_TELEFOOO449",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CLIENTEZZ_449",
-			"format": "",
-			"name": "@i_telefono",
-			"type": "ATTRIBUTE",
-			"value": ""
 		}
 	],
-	"name": "BLI_CrearCliente",
+	"name": "BLI_EliminarCliente",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI9583_bli_crearcliente",
-	"patternName": "BLI_CrearCliente",
+	"patternId": "BLI1788_bli_eliminarcliente",
+	"patternName": "BLI_EliminarCliente",
 	"patternType": "Bli",
 	"queries": [
 	],
