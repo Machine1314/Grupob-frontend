@@ -348,7 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-
-#Ignora carpeta build
-GrupoB/build/*
+#Ignora build
+GrupoB/build

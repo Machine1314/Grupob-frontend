@@ -1,0 +1,132 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030024"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "F"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_fecha1",
+			"type": "CUSTOM",
+			"value": "fecha1"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_fecha2",
+			"type": "CUSTOM",
+			"value": "fecha2"
+		}
+	],
+	"name": "BLI_BuscarFacturasFecha",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI4715_bli_buscarfacturasfecha",
+	"patternName": "BLI_BuscarFacturasFecha",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "1587e3ea-3503-408d-80da-aac5689b8866",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select \u0027Codigo\u0027 = ca.cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,ca.cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "1587e3ea-3503-408d-80da-aac5689b8866",
+			"columns": [
+				{
+					"attributeId": "AT52_CODIGOMW347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_FECHAVPR347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Fecha",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT24_TOTALZNH347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Total",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT54_NOMBREIE347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Nombre Cliente",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_APELLIOE347",
+					"entityId": "EN_DATOSFATC_347",
+					"format": "",
+					"name": "Apellido Cliente",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_DATOSFATC_347",
+			"module": {
+				"moduleId": "FRNTN",
+				"moduleName": "FRONTEND"
+			},
+			"name": "DatosFactura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_factura_g2",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

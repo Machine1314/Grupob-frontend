@@ -1,24 +1,59 @@
 {
 	"Entities": {
+		"EN_BUSQUEDAA_891": {
+			"name": "Busqueda"
+		},
 		"EN_CLIENTEZZ_449": {
 			"name": "Cliente"
+		},
+		"EN_DATOSFATC_347": {
+			"name": "DatosFactura"
 		},
 		"EN_PRODUCTOO_275": {
 			"name": "Producto"
 		}
-	},
+},
 	"FCTRC": {
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_FRNTNBVWCPBWM_175": {
+				"name": "Producto"
+			},
 			"T_FRNTNSYZSPIUW_210": {
 				"name": "ClienteForm"
+			},
+			"T_FRNTNKJDJSROC_470": {
+				"name": "ListarProductos"
+			}
+		},
+"Queries": {
+			"Q_CLIETTEN_AB57": {
+				"name": "ClienteQuery"
+			},
+			"Q_PRODCTTO_GR26": {
+				"name": "ListarProductosQ"
+			}
+		},
+	"RPRTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRNTNGUUDYOUQ_944": {
+				"name": "FacturasPorFecha"
+			},
+			"T_FRNTNXKREPNXN_521": {
+				"name": "FacturasPorCliente"
 			}
 		},
 		"Queries": {
-			"Q_CLIETTEN_AB57": {
-				"name": "ClienteQuery"
+			"Q_DATOAUFS_NQ47": {
+				"name": "DatosFacturaQueryCedula"
+			},
+			"Q_DATOTCUF_WG71": {
+				"name": "DatosFacturaQueryFecha"
 			}
-		}
-	}
+		},
+		"SubForms": {
+		}	}
 }

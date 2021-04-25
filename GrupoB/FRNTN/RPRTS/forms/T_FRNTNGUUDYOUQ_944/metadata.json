@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_BUSQUEDAA_891",
+			"isContextEntity": null,
+			"moduleId": "FRNTN",
+			"related": false
+		},
+		{
+			"entityId": "EN_DATOSFATC_347",
+			"isContextEntity": null,
+			"moduleId": "FRNTN",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FRNTN",
+			"queryId": "Q_DATOTCUF_WG71",
+			"related": false,
+			"subModuleId": "RPRTS"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	"filename": "D:\\COBIS_RECLUTAMIENTO\\Covert_sp\\Sinconvertir\\sp_grupob_factura.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_factura_g2",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_fecha1"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_fecha2"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "1587e3ea-3503-408d-80da-aac5689b8866",
+				"columns": [
+					"Codigo",
+					"Fecha",
+					"Total",
+					"Nombre Cliente",
+					"Apellido Cliente"
+				],
+				"editMode": true,
+				"queryText": "select \u0027Codigo\u0027 = ca.cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,ca.cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
+			},
+			{
+				"_idQuery": "92123c4c-55d9-47a9-a116-07797d7e7c8a",
+				"columns": [
+					"Codigo",
+					"Fecha",
+					"Total",
+					"Nombre Cliente",
+					"Apellido Cliente"
+				],
+				"editMode": true,
+				"queryText": "select \u0027Codigo\u0027 = cf_codigo,\r\n\t\u0027Fecha\u0027 = CONVERT(varchar,cf_fecha,3),\r\n\t\u0027Total\u0027 = ca.cf_total,\r\n\t\u0027Nombre Cliente\u0027 = cli.cli_nombre,\r\n\t\u0027Apellido Cliente\u0027 = cli.cli_apellido\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo_cli"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

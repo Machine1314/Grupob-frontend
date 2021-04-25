@@ -1,0 +1,102 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030013"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "L"
+		}
+	],
+	"name": "BLI_ConsultarProductos",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1606_bli_consultarproductos",
+	"patternName": "BLI_ConsultarProductos",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "694421d4-e33c-4737-a882-195e7c576539",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\t\u0027secuencial\u0027 \t= pr_secuencial,\r\n\t\t\u0027codigo\u0027 \t \t= pr_codigo,\r\n\t\t\u0027nombre\u0027 \t\t= pr_nombre,\r\n\t\t\u0027precio\u0027\t\t= pr_precio\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "694421d4-e33c-4737-a882-195e7c576539",
+			"columns": [
+				{
+					"attributeId": "AT59_SECUENII275",
+					"entityId": "EN_PRODUCTOO_275",
+					"format": "",
+					"name": "secuencial",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT68_CODIGOWR275",
+					"entityId": "EN_PRODUCTOO_275",
+					"format": "",
+					"name": "codigo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT64_NOMBRETH275",
+					"entityId": "EN_PRODUCTOO_275",
+					"format": "",
+					"name": "nombre",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT76_PRECIOQN275",
+					"entityId": "EN_PRODUCTOO_275",
+					"format": "",
+					"name": "precio",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_275",
+			"module": {
+				"moduleId": "FRNTN",
+				"moduleName": "FRONTEND"
+			},
+			"name": "Producto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_prod_g2",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

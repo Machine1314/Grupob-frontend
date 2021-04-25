@@ -1,10 +1,20 @@
 {
-    "FRNTN": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FRNTN": {
+		"LBL": {
+			"LBL_FRNTN_ACTUALIAR_11073": "Actualizar",
+			"LBL_FRNTN_BUSCARKWB_75485": "Buscar",
+			"LBL_FRNTN_CDIGOIVVU_78422": "C\u00f3digo",
+			"LBL_FRNTN_CEDULARHS_33711": "Cedula",
+			"LBL_FRNTN_DATOSPROT_53113": "Datos Producto",
+			"LBL_FRNTN_FECHAFIAA_32094": "Fecha Final (aaaa-mm-dd)",
+			"LBL_FRNTN_FECHAINCA_55885": "Fecha Inical ()",
+			"LBL_FRNTN_FECHAINIA_62128": "Fecha Inicial (aaaa-mm-dd)",
+			"LBL_FRNTN_GUARDARHO_88292": "Guardar",
+			"LBL_FRNTN_NOMBRERCS_68286": "Nombre",
+			"LBL_FRNTN_PRECIOGBM_67267": "Precio"
+		},
+		"MSG": {
+			"MSG_FRNTN_CREADOCXN_11893": "Creado con \u00e9xito"
+		}
+	}
 }

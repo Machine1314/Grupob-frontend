@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_PRODUCTOO_275",
+			"isContextEntity": null,
+			"moduleId": "FRNTN",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
