@@ -6,6 +6,7 @@ task.gridRowInserting.QV_DN57_WPJ49 = function (entities,gridRowInsertingEventAr
      gridRowInsertingEventArgs.commons.execServer = true;
      //gridRowInsertingEventArgs.commons.serverParameters.Cliente = true;
     gridRowInsertingEventArgs.commons.api.grid.refresh('QV_DN57_WPJ49');
+    gridRowInsertingEventArgs.commons.api.grid.refresh('QV_DN57_WPJ49');
 
 };
 

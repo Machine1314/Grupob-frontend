@@ -5,7 +5,7 @@
 		"forms": {
 			"FRNTN": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "FRNTN",
 					"name": "ClienteForm",
 					"subModuleId": "FCTRC",
