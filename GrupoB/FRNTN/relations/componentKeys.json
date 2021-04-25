@@ -12,7 +12,7 @@
 		"EN_PRODUCTOO_275": {
 			"name": "Producto"
 		}
-	},
+},
 	"FCTRC": {
 		"CompositeForms": {
 		},
@@ -20,16 +20,21 @@
 			"T_FRNTNBVWCPBWM_175": {
 				"name": "Producto"
 			},
+			"T_FRNTNSYZSPIUW_210": {
+				"name": "ClienteForm"
+			},
 			"T_FRNTNKJDJSROC_470": {
 				"name": "ListarProductos"
 			}
 		},
-		"Queries": {
+	"Queries": {
+			"Q_CLIETTEN_AB57": {
+				"name": "ClienteQuery"
+			},
 			"Q_PRODCTTO_GR26": {
 				"name": "ListarProductosQ"
 			}
-		}
-	},
+		},
 	"RPRTS": {
 		"CompositeForms": {
 		},
@@ -50,6 +55,7 @@
 			}
 		},
 		"SubForms": {
+		}	
 		}
 	}
 }
