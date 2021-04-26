@@ -13,18 +13,18 @@
 			"name": "Producto"
 		}
 	},
-	"FCTRC": {	
+	"FCTRC": {
 		"CompositeForms": {
 		},
 		"Forms": {
 			"T_FRNTNBVWCPBWM_175": {
 				"name": "Producto"
 			},
-			"T_FRNTNSYZSPIUW_210": {
-				"name": "ClienteForm"
-			},
 			"T_FRNTNKJDJSROC_470": {
 				"name": "ListarProductos"
+			},
+			"T_FRNTNSYZSPIUW_210": {
+				"name": "ClienteForm"
 			}
 		},
 		"Queries": {
@@ -56,7 +56,6 @@
 			}
 		},
 		"SubForms": {
-		}	
+		}
 	}
-	
 }

@@ -1,5 +1,11 @@
-
 {
+	"EN_CLIENTEZZ_449": {
+		"queries": {
+			"Q_CLIETTEN_AB57": {
+				"$ref": "../FCTRC/queries/Q_CLIETTEN_AB57.json#"
+			}
+		}
+	},
 	"EN_DATOSFATC_347": {
 		"queries": {
 			"Q_DATOAUFS_NQ47": {
@@ -16,13 +22,5 @@
 				"$ref": "../FCTRC/queries/Q_PRODCTTO_GR26.json#"
 			}
 		}
-	},
-	"EN_CLIENTEZZ_449": {
-		"queries": {
-			"Q_CLIETTEN_AB57": {
-				"$ref": "../FCTRC/queries/Q_CLIETTEN_AB57.json#"
-			}
-		}
 	}
-
 }
