@@ -243,45 +243,6 @@
 										"type": "A",
 										"userControlId": "Button"
 									}
-								},
-								{
-									"action": null,
-									"commandImageId": null,
-									"commandName": "AfterLeaveInLineRow",
-									"commandOrder": null,
-									"commandType": 0,
-									"customActionId": "CEQV_206QV_DN57_WPJ49_790",
-									"customizationLayer": 0,
-									"customizationLayerDescription": "ECU",
-									"enabled": "T",
-									"eventActions": [
-										{
-											"actionArgs": [
-											],
-											"actionId": "CUSTOM",
-											"actionType": "CUSTOM"
-										}
-									],
-									"executionType": 3,
-									"filter": null,
-									"isCustomized": false,
-									"name": "AfterLeaveInLineRow",
-									"options": 0,
-									"queryView": "QV_DN57_WPJ49",
-									"queryViewEventType": {
-										"availableExecutionType": 3,
-										"description": "Se ejecuta despues de aceptar la edici\u00f3n o inserci\u00f3n en linea de la grilla.",
-										"eventId": 206,
-										"name": "AfterLeaveInLineRow"
-									},
-									"serviceName": null,
-									"userControl": {
-										"customizationLayer": "0",
-										"customizationLayerDescription": "ECU",
-										"description": "Designer Button",
-										"type": "A",
-										"userControlId": "Button"
-									}
 								}
 							],
 							"queryViewId": "QV_DN57_WPJ49",

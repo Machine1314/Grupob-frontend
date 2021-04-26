@@ -22,10 +22,6 @@
 		"controlType": "",
 		"customEvents": [
 			{
-				"eventName": "afterLeaveInLineRow",
-				"executionType": 3
-			},
-			{
 				"eventName": "rowDeleting",
 				"executionType": 3
 			},

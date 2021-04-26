@@ -1,5 +1,34 @@
-
 {
+	"APP_CLIENTEAPPP_940": {
+		"externalModules": {
+		},
+		"forms": {
+			"FRNTN": [
+				{
+					"generated": 4,
+					"moduleId": "FRNTN",
+					"name": "ClienteForm",
+					"subModuleId": "FCTRC",
+					"taskId": "T_FRNTNSYZSPIUW_210",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "ClienteApp",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CLIENTEAPPP_940",
+		"mainPortletTaskId": "T_FRNTNSYZSPIUW_210",
+		"modules": [
+			"FRNTN"
+		],
+		"name": "ClienteApp"
+	},
 	"APP_GRUPOBPRDUU_883": {
 		"externalModules": {
 		},
@@ -79,37 +108,5 @@
 			"FRNTN"
 		],
 		"name": "GrupoBReportes"
-	},
-	"APP_CLIENTEAPPP_940": {
-		"externalModules": {
-		},
-		"forms": {
-			"FRNTN": [
-				{
-					"generated": 0,
-					"moduleId": "FRNTN",
-					"name": "ClienteForm",
-					"subModuleId": "FCTRC",
-					"taskId": "T_FRNTNSYZSPIUW_210",
-					"type": "Simple form"
-				}
-			]
-		},
-		"generate": {
-			"categoryName": "Cobiscorp",
-			"customEventImpl": "Custom",
-			"customEventImplPath": "{projectPath}\\build",
-			"displayName": "ClienteApp",
-			"mode": "Development",
-			"type": "HTML5"
-		},
-		"id": "APP_CLIENTEAPPP_940",
-		"mainPortletTaskId": "T_FRNTNSYZSPIUW_210",
-		"modules": [
-			"FRNTN"
-		],
-		"name": "ClienteApp"
 	}
-
-
 }
